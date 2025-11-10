@@ -1,22 +1,23 @@
 # GLOBAL-COSMETIC-PERFORMANCE-REVIEW
-This project visualizes key performance metrics for a global cosmetics dataset.   It allows users to explore **total revenue, top-performing countries, leading salespersons, and product line performance** through dynamic charts and KPI cards.
+This project visualizes key performance metrics for a global cosmetics dataset.   It allows users to explore **total revenue, top-performing countries, lowest performing countries, revenue by salesperson, Revenue trend overtime, Average revenue per country and product line performance** through dynamic charts and KPI cards.
 
-<img width="1879" height="890" alt="Global Cosmetic Dashboard" src="https://github.com/user-attachments/assets/c0d1df4f-4db6-4528-bd90-4069fcf2af94" />
+<img width="1885" height="884" alt="Global Cosmetic Performance Dashboard" src="https://github.com/user-attachments/assets/053b48b6-0cec-4029-90e0-652b80f67843" />
 
 
 ## 📊 Project Overview
 
 This project visualizes key business metrics for a global cosmetics dataset.  
-It helps stakeholders understand **which countries and salespeople** drive the highest revenue and how revenue is distributed across markets.
+It helps stakeholders understand **which countries, products and salespeople** drive the highest and lowest revenue and how revenue is distributed across markets.
 
-The dashboard is fully dynamic with slicers and pivot tables that allow users to filter results by **Country** and **Salesperson**, updating all visuals and KPIs instantly.
+The dashboard is fully dynamic with slicers and pivot tables that allow users to filter results by **Country**, **Products** and **Salesperson**, updating all visuals and KPIs instantly.
 
 ---
 
 ## 🎯 Dashboard Objectives
 
 - Compare **revenue across different countries**.  
-- Identify the **top-performing salespersons**.  
+- Identify the **top-performing salespersons**.
+- Analyze **revenue contribution by product line**.
 - Provide key **business insights** through clear visualizations and KPI cards.
 
 ---
@@ -37,7 +38,8 @@ The dashboard is fully dynamic with slicers and pivot tables that allow users to
 - **Sheet Used:** `Cleaned Data`
 - The dataset includes transaction-level sales information such as:
   - Country  
-  - Salesperson  
+  - Salesperson
+  - Product Line 
   - Product
   - Date
   - Amount
@@ -59,6 +61,8 @@ The dashboard is fully dynamic with slicers and pivot tables that allow users to
 ---
 
 ## 📁 Project Structure
+[Global Cosmetic Project.xlsx](https://github.com/user-attachments/files/23450772/Global.Cosmetic.Project.xlsx)
+<img width="1885" height="884" alt="Global Cosmetic Performance Dashboard" src="https://github.com/user-attachments/assets/b920df35-285e-409b-8d38-8a7c026b2e52" />
 
 ---
 
@@ -66,17 +70,17 @@ The dashboard is fully dynamic with slicers and pivot tables that allow users to
 
 **1. KPI Cards**
 - Total Revenue  
-- Top Country  
+- Top Country
+- Lowest Country
 - Top Salesperson  
 - Average Revenue per Country  
 - Number of Transactions  
 
 **2. Visualizations**
-- Bar Chart → Revenue by Country  
+- Bar Chart → Top Performing Products 
 - Pie Chart → Revenue Share by Country  
 - Bar Chart → Revenue by Salesperson  
-- Column Chart → Product Line Performance  
-- (Optional) Line Chart → Revenue Trend Over Time
+- Line Chart → Revenue Trend Over Time
 
 ---
 
@@ -109,19 +113,12 @@ The dashboard is fully dynamic with slicers and pivot tables that allow users to
 
 ## 👩‍💻 Author
 
-**[Your Full Name]**  
-🎓 Data Analyst / Excel & BI Enthusiast  
-📧 [your.email@example.com]  
-🔗 [LinkedIn Profile or Portfolio Link]  
-💻 [GitHub Profile Link]
+**Asekhame Efeomo Blessing**  
+🎓 Data Analyst / Excel & Business Intelligence Professional  
+📧 asekhameefeomo@yahoo.com  
+🔗 https://www.linkedin.com/in/efeomo-asekhame
 
----
-
-## 🪄 Preview
-
-> *A snapshot of the Excel dashboard:*
->
-> ![Cosmetic Revenue Dashboard Preview](Dashboard_Screenshot.png)
+💻 https://github.com/EfeomoB
 
 ---
 
